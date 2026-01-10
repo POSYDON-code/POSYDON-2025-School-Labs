@@ -4,3 +4,11 @@ These are coding exercises (primarily Jupyter notebooks) from the [POSYDON Schoo
 
 > [!NOTE]
 > Some of these labs rely on pre-made population data to work. The requisite population data can be downloaded from Zenodo here: [https://zenodo.org/records/17902460](https://zenodo.org/records/17902460). By default, the labs expect these to be place in your `$PATH_TO_POSYDON_DATA` directory, which is an environment variable set up during the [POSYDON installation process](https://posydon.org/POSYDON/latest/getting-started/installation-guide.html).
+>
+> With POSYDON v2.2.4 and later, you can use the following command to automatically download the data to your `$PATH_TO_POSYDON_DATA` directory:
+>
+> ```
+> get-posydon-data 2025_school_data
+> ```
+>
+> The dataset is about 6.4 GB large.
